@@ -1,0 +1,69 @@
+/*
+Theme Name: EightStore Lite Child
+Author: Bobesz
+Author URI: https://bobnet.network
+Description: EightStore Lite Child theme
+Version: 1.0.0
+Template: eightstore-lite
+*/
+@import url("../eightstore-lite/style.css");
+
+.home.woocommerce #primary {
+    float: right;
+    width: 66%;
+    margin-left: 0;
+    margin-bottom: 0;
+}
+
+.woocommerce #secondary {
+    float: left;
+    width: 30%;
+    margin-bottom: 40px;
+}
+
+main {
+   margin-top: 40px;
+}
+
+.main-header .store-wrapper{
+	/*background-image: url("https://sarasotagem.com/wp-content/uploads/2020/04/Sarasota-Gem-2-1.png");*/
+}
+
+.site-branding h1.site-title{
+	text-align: center;
+	font-size: 45px;
+}
+.site-title a, .site-description{
+	text-align: center;
+}
+
+.site-description{
+	font-size: 30px;
+}
+
+.site-branding {
+    width: 100%;
+}
+
+.site-titles {
+    width: 100%;
+}
+
+.woocommerce img, .woocommerce-page img, .page img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75px;
+}
+
+.header-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75px;
+}
+
+.right-links {
+    width: 100%;
+    text-align: center;
+}
